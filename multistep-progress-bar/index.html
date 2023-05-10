@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Progress Bar</title>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+    </hhead>
+
+<body>
+    <h2>Multi Step Progress Bar</h2>
+    <div class="outer-container">
+        <div class="container" id="container">
+            <div class="progress-bar" id="progress-bar"></div>
+            <di class="content">
+                <div id="step-content">{{content}}</div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="confirm" class="confirm">
+                    <label for="step">Confirm</label>
+                </div>
+                <div class="actions-container">
+                    <button class="primary" onclick="prevStep()">Prev</button>
+                    <button class="primary" onclick="nextStep()">Next</button>
+                </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- external script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
